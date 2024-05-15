@@ -27,6 +27,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           file: Dockerfiles/ocp4_content
-          tags: quay.io/vahirwad/ocp4:latest
+          tags: quay.io/aniruddha_nayek/ocp4:latest
           platforms: linux/amd64,linux/ppc64le
           push: true
